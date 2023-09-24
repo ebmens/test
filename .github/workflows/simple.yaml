@@ -25,5 +25,5 @@ run-windows-commands:
      - name: Directory
        run:  Get-location 
      - name: Directory bash
-        run: pwd 
-        shell: bash
+       run: pwd 
+       shell: bash
