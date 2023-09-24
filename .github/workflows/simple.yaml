@@ -18,6 +18,7 @@ jobs:
           npm -v
       - name: python command
         run: |
-          python -c "import platform; print(platform.processor())"
+          import platform
+          print(platform.processor())
         shell: python
 
